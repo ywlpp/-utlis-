@@ -1,0 +1,18 @@
+<!--pages/event/event.wxml-->
+<!-- 小程序是单向数据流，通过this.setData改变数据 -->
+<view class=''>
+  <button bindtap="showflag">
+    点击
+  </button>
+  <text wx:if="{{flag}}">通过点击事件实现显示隐藏</text>
+</view>
+  <swiper>
+  <block wx:for="{{imgUrls}}" wx:key='item.index'>
+    <swiper-item>
+      <image mode='widthFix' src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+  <button bindtap='toaudio'>点击跳转播放器</button>
+</view>

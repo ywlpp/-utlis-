@@ -1,0 +1,4 @@
+/* pages/notelist/notelist.wxss */
+view{
+  text-align: center;
+}

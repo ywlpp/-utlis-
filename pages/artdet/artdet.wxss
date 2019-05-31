@@ -1,0 +1,9 @@
+/* pages/artdet/artdet.wxss */
+/* import "../template/template.wxss"; */
+text{
+  display: block;
+}
+.star{
+  width: 36rpx;
+  height: 36rpx;
+}

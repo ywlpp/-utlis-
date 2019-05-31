@@ -1,0 +1,15 @@
+<!--pages/artistc/artistc.wxml-->
+<!-- 通过include 引入wxml 包括样式都直接引入进来 -->
+<import src="../template/template.wxml" />
+<view>
+<scroll-view style="height:600rpx;"
+scroll-y="true"bindscrolltolower="tobottom">
+ <block wx:for="{{artData}}" wx:key='item.id'>
+    <view bindtap="todetail" data-id='{{item.id}}'>
+    <!-- 拓展运算符可也防止传参的名字不一样的问题 -->
+    <!-- 模板上是不可做事件的 -->
+      <template is="list-item" data="{{...item}}"/>
+    </view>
+  </block>
+ </scroll-view>
+</view>

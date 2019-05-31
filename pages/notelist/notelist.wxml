@@ -1,0 +1,9 @@
+<!--pages/notelist/notelist.wxml-->
+<view>
+    <button bindtap='tonotebook'>记录</button>
+    <button>清除</button>
+     <block wx:for='{{notelist}}' wx:key='item.index'>
+        <view>{{item.title}}</view>
+        <view>{{item.content}}</view>
+    </block>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/aodio/aodio.wxml-->
+<button bindtap='playmusic'>{{flag?'播放':'暂停'}}</button>

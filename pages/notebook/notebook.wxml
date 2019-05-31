@@ -1,0 +1,8 @@
+<!--pages/notebook/notebook.wxml-->
+<view>
+    <text>请输入标题</text>
+    <input type='text' bindinput='settitle'></input>
+    <text>请输入内容</text>
+    <input type='text' bindinput='setcontent'></input>
+    <button bindtap='getart'>提交</button>
+</view>

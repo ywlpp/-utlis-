@@ -1,0 +1,5 @@
+/* pages/template/template.wxss */
+.star{
+  width: 36rpx;
+  height: 36rpx;
+}

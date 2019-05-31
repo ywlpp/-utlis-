@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+<view class="container log-list">
+ <text>
+      {{msg}}
+ </text>
+ <text wx:if="{{flag}}">
+      显示内容
+ </text>
+ <text hidden="{{flag}}">
+      hiddensldhjkb
+ </text>
+
+
+ <text>
+      {{true?'显示true':'显示false'}}
+ </text>
+ <view wx:for="{{list}}" wx:key='item.index'>{{item}}</view>
+ <view>
+    <button bindtap='toaudio'>点击跳转播放器页面</button>
+ </view>
+</view>

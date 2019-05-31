@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/notelist/notelist",
+    "pages/notebook/notebook",
+    "pages/artlist/artlist",
+    "pages/artdet/artdet",
+    "pages/animate/animate",
+    "pages/nav/nav",
+    "pages/ajaxdom/ajaxdom",
+    "pages/index/index",
+    "pages/event/event",
+    "pages/audio/audio",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "blue",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icons/about.png",
+      "selectedIconPath":"images/icons/about-selected.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath": "images/icons/weekly.png",
+      "selectedIconPath": "images/icons/weekly-selected.png"
+    },
+    {
+      "pagePath": "pages/nav/nav",
+      "text": "音乐播放",
+      "iconPath": "images/icons/weekly.png",
+      "selectedIconPath": "images/icons/weekly-selected.png"
+    }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio"]
+}

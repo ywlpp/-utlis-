@@ -1,0 +1,5 @@
+/* pages/event/event.wxss */
+.slide-image{
+  width: 750rpx;
+  height: 300rpx;
+}

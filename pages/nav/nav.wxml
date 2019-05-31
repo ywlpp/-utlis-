@@ -1,0 +1,9 @@
+<!--pages/nav/nav.wxml-->
+<view>
+      <view>音乐页</view>
+      <button bindtap='toaudio'>点击跳转到音乐播放器</button>
+</view>
+       <wxs src="../../utils/tool.wxs" module='tools'></wxs>
+       <view>
+    {{tools.formdate(1559090391822)}}
+       </view>
